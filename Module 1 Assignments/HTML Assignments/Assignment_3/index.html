@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Details Form</title>
+    <style>
+      .form-container {
+        margin-left: 50px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        margin-right: 10px;
+      }
+
+      .form-group input,
+      .form-group select {
+        width: 200px;
+        padding: 5px;
+      }
+
+      .form-group p {
+        margin-left: 160px;
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+
+      h4 {
+        margin-bottom: 15px;
+      }
+
+      .form-container button {
+        margin-left: 160px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+        <h1>Contact Form</h1>
+      <div style="border: 20px black solid; width: 550px; text-align: left">
+        <div style="align-items: center">
+          <div class="form-container">
+            <h4>Contact Details</h4>
+            <div class="form-group">
+              <label for="first_name">First Name:</label>
+              <input
+                type="text"
+                id="first_name"
+                name="first_name"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last_name">Last Name:</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="date_of_birth">Date of Birth:</label>
+              <input
+                type="date"
+                id="date_of_birth"
+                name="date_of_birth"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <select id="gender" name="gender" class="input-field">
+                <option value="M">Choose a Gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-container">
+            <h4>Account Details</h4>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="input-field" />
+              <p>Your email address will be your username</p>
+            </div>
+            <div class="form-group">
+              <label for="retype_email">Re-type Email:</label>
+              <input
+                type="email"
+                id="retype_email"
+                name="retype_email"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="input-field"
+              />
+              <p>Min. 8 characters, 1 number, case-sensitive</p>
+            </div>
+            <div class="form-group">
+              <label for="retype_password">Re-type Password:</label>
+              <input
+                type="password"
+                id="retype_password"
+                name="retype_password"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="security_question">Security Question:</label>
+              <select
+                id="security_question"
+                name="security_question"
+                class="input-field"
+              >
+                <option value="choose">Choose a security question</option>
+                <option value="question1">Or kia haal hn?</option>
+                <option value="question2">mazay ma?</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="security_answer">Security Answer:</label>
+              <input
+                type="text"
+                id="security_answer"
+                name="security_answer"
+                class="input-field"
+              />
+              <p>Not case-sensitive</p>
+            </div>
+          </div>
+
+          <div class="form-container">
+            <h4>Contact Information</h4>
+            <div class="form-group">
+              <label for="Address">Address:</label>
+              <input
+                type="text"
+                id="Address"
+                name="Address"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="City">City:</label>
+              <input type="text" id="City" name="City" class="input-field" />
+            </div>
+            <div class="form-group">
+              <label for="State">State:</label>
+              <select id="State" name="State" class="input-field">
+                <option value="C">Choose a State</option>
+                <option value="S">Sindh</option>
+                <option value="P">Punjab</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="zip_Code">Zip Code:</label>
+              <input
+                id="zip_Code"
+                type="text"
+                name="zip_Code"
+                class="input-field"
+              />
+            </div>
+            <div class="form-group">
+              <label for="Phone">Phone:</label>
+              <input type="text" id="Phone" name="Phone" class="input-field" />
+              <select
+                id="Phone_Type"
+                name="Phone_Type"
+                class="input-field"
+                style="width: 100px; margin-left: 10px"
+              >
+                <option value="M">Mobile</option>
+                <option value="N">Nil</option>
+                <option value="L">Landline</option>
+              </select>
+            </div>
+            <p style="margin-left: 160px">No space or dashes</p>
+          </div>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
