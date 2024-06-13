@@ -1,0 +1,110 @@
+.header {
+    background-color: #dff2ff;
+    font-size: 50px;
+    border: 8px solid #adecfd;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 70%;
+    font-style: italic;
+
+}
+
+tr.one {
+    background-color: #0189db;
+    color: white;
+    font-size: 20px;
+
+}
+
+tr.two {
+    background-color: #0195df;
+    color: white;
+    font-size: 20px;
+    
+}
+
+tr.three {
+    background-color: #059eec;
+    color: white;
+    font-size: 20px;
+}
+
+tr.four {
+    background-color: #30aaeb;
+    color: white;
+    font-size: 20px;
+}
+
+tr.five {
+    background-color: #54b4eb;
+    color: white;
+    font-size: 20px;
+}
+
+tr.six {
+    background-color: #77bdf1;
+    color: white;
+    font-size: 20px;
+}
+
+tr.seven {
+    background-color: #8ccaf0;
+    color: white;
+    font-size: 20px;
+}
+
+tr.a {
+    background-color: #02ba88;
+    color: white;
+    font-size: 20px;
+}
+
+tr.b {
+    background-color: #f5b0cc;
+    color: white;
+    font-size: 20px;
+}
+
+tr.c {
+    background-color: #f5a1c2;
+    color: white;
+    font-size: 20px;
+}
+
+tr.d {
+    background-color: #f38db2;
+    color: white;
+    font-size: 20px;
+}
+
+tr.e {
+    background-color: #f17da6;
+    color: white;
+    font-size: 20px;
+}
+
+tr.f {
+    background-color: #f66a97;
+    color: white;
+    font-size: 20px;
+}
+
+tr.g {
+    background-color: #f35a8e;
+    color: white;
+    font-size: 20px;
+}
+
+tr.h {
+    background-color: #ee3f80;
+    color: white;
+    font-size: 20px;
+}
+
+
+.table1{
+    width: 70%;
+    text-align: center;
+    
+}
