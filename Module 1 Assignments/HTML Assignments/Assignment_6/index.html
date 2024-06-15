@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colored Boxes on Hover</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Open+Sans&family=Roboto&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .heading {
+        font-size: 2em;
+        margin: 20px;
+        cursor: pointer;
+        position: relative;
+        display: block;
+        padding: 10px;
+        transition: transform 0.2s;
+      }
+      .heading:hover {
+        transform: scale(1.1);
+      }
+      .heading::after {
+        position: absolute;
+        left: 50%;
+        transform: translateX(50%);
+        width: 100px;
+        height: 100px;
+        display: none;
+      }
+      #red-heading:hover::after {
+        display: block;
+        content: "Red Color";
+        background-color: red;
+        top: 100%;
+      }
+      #green-heading:hover::after {
+        display: block;
+        content: "green Color";
+        background-color: green;
+        top: 100%;
+      }
+      #blue-heading:hover::after {
+        display: block;
+        content: "blue Color";
+        background-color: blue;
+        top: 100%;
+      }
+      #yellow-heading:hover::after {
+        display: block;
+        content: "yellow Color";
+        background-color: yellow;
+        top: 100%;
+      }
+      #purple-heading:hover::after {
+        display: block;
+        content: "purple Color";
+        background-color: purple;
+        top: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="heading"
+      id="red-heading"
+      style="font-family: 'Lobster', cursive"
+    >
+      Red
+    </div>
+    <div
+      class="heading"
+      id="green-heading"
+      style="font-family: 'Montserrat', sans-serif"
+    >
+      Green
+    </div>
+    <div
+      class="heading"
+      id="blue-heading"
+      style="font-family: 'Open Sans', sans-serif"
+    >
+      Blue
+    </div>
+    <div
+      class="heading"
+      id="yellow-heading"
+      style="font-family: 'Ubuntu', sans-serif"
+    >
+      Yellow
+    </div>
+    <div
+      class="heading"
+      id="purple-heading"
+      style="font-family: 'Arial', sans-serif"
+    >
+      Purple
+    </div>
+  </body>
+</html>
