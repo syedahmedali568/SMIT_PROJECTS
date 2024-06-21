@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <img src="./Screenshot 2024-06-21 211752.png" alt="Header Image" />
+        </div>
+        
+        <div class="form-container">
+            <form>
+                <h1 class="abc">Registration Info</h1>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" required="">
+                    <label for="name" class="form__label">NAME</label>
+                </div>
+                <div class="form-row">
+                    <div class="form__group field">
+                        <input [type=date] placeholders color=transparent placeholder="DATE" class="form__field" required="">
+                        <label for="Date" class="form__label">DATE OF BIRTH</label>
+                    </div>
+                    <div class="form__group field">
+                        <select class="form__field" id="gender" name="gender">
+                            <option value="">GENDER</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Class" required="">
+                    <label for="Class" class="form__label">CLASS</label>
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Registration Code" required="">
+                    <label for="Registration Code" class="form__label">REGISTRATION CODE</label>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="submit-button">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
