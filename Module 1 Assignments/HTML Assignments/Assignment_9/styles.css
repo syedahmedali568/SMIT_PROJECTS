@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.circle-container {
+    position: relative;
+    width: 300px; /* Adjust based on desired size */
+    height: 300px; /* Adjust based on desired size */
+}
+
+.circle {
+    position: absolute;
+    width: 200px; /* Adjust based on desired size */
+    height: 200px; /* Adjust based on desired size */
+    border-radius: 50%;
+    opacity: 0.8; /* Adjust transparency as needed */
+    margin: 0;
+    top: 20%;
+    left: 20%;
+    transform: rotate(var(--rotate)) translate(200px); /* Increased translate value */
+}
+
+.circle1 {
+    --rotate: 0deg;
+    background-color: #FFB74D;
+}
+
+.circle2 {
+    --rotate: 51.4deg;
+    background-color: #81C784;
+}
+
+.circle3 {
+    --rotate: 102.9deg;
+    background-color: #4DB6AC;
+}
+
+.circle4 {
+    --rotate: 154.3deg;
+    background-color: #64B5F6;
+}
+
+.circle5 {
+    --rotate: 205.7deg;
+    background-color: #9575CD;
+}
+
+.circle6 {
+    --rotate: 257.1deg;
+    background-color: #BA68C8;
+}
+
+.circle7 {
+    --rotate: 308.6deg;
+    background-color: #E57373;
+}
